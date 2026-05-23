@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lei Jiang</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #1f2937;
+      --muted: #526070;
+      --line: #d8dee6;
+      --accent: #1d5f8a;
+      --bg: #f7f9fb;
+      --panel: #ffffff;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--ink);
+      background: var(--bg);
+      line-height: 1.6;
+    }
+
+    main {
+      width: min(760px, calc(100% - 40px));
+      margin: 64px auto;
+      padding: 40px;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: 36px;
+      line-height: 1.2;
+      font-weight: 700;
+      letter-spacing: 0;
+    }
+
+    .role {
+      margin: 0 0 28px;
+      color: var(--muted);
+      font-size: 18px;
+    }
+
+    section {
+      padding-top: 22px;
+      margin-top: 22px;
+      border-top: 1px solid var(--line);
+    }
+
+    h2 {
+      margin: 0 0 10px;
+      font-size: 18px;
+      letter-spacing: 0;
+    }
+
+    p {
+      margin: 8px 0;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .label {
+      font-weight: 700;
+    }
+
+    @media (max-width: 560px) {
+      main {
+        width: min(100% - 24px, 760px);
+        margin: 24px auto;
+        padding: 24px;
+      }
+
+      h1 {
+        font-size: 30px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Lei Jiang</h1>
+    <p class="role">Student, Beijing Union University</p>
+
+    <section aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact</h2>
+      <p><span class="label">Affiliation:</span> Beijing Union University</p>
+      <p><span class="label">Email:</span> <a href="mailto:20241083510901@buu.edu.com">20241083510901@buu.edu.com</a></p>
+      <p><span class="label">ORCID:</span> <a href="https://orcid.org/0009-0006-5893-2400">https://orcid.org/0009-0006-5893-2400</a></p>
+    </section>
+
+    <section aria-labelledby="research-heading">
+      <h2 id="research-heading">Research Interests</h2>
+      <p>Natural Language Processing, Retrieval-Augmented Generation, Multi-hop Question Answering, and Information Retrieval.</p>
+    </section>
+  </main>
+</body>
+</html>
