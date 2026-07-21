@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.npm-cache/
+.npmrc
+*.log
+AGENTS.md
+.DS_Store
+Thumbs.db
