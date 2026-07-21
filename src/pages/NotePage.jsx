@@ -15,7 +15,7 @@ export function NotePage() {
 
   if (!note || !markdown) return <NotFoundPage />;
 
-  const editUrl = `https://github.com/jianglei1111/personal-website/edit/main/site/src/content/notes/${slug}.md`;
+  const editUrl = `https://github.com/jianglei1111/jianglei1111.github.io/edit/main/src/content/notes/${slug}.md`;
 
   return (
     <div className="site-shell detail-shell">
