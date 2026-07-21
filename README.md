@@ -4,6 +4,7 @@
 
 ## 编辑内容
 
+- 页面入口：`app/index.html`
 - 个人信息、项目、动态与文章元数据：`src/data/site.js`
 - Markdown 正文：`src/content/notes/*.md`
 - 背景图片：`public/images/hero-research-workbench.png`
@@ -19,6 +20,6 @@ pnpm dev
 
 ## GitHub Pages
 
-仓库包含 `.github/workflows/deploy.yml`。推送到 `main` 后，在仓库 Settings > Pages 中将 Source 设为 GitHub Actions，即可自动部署。
+仓库包含 `.github/workflows/deploy.yml`。推送到 `main` 后会自动构建并部署；构建结果也会同步到仓库根目录，以兼容从 `main` 分支直接发布的 Pages 设置。
 
 项目仓库会自动使用 `/<repository-name>/` 作为资源路径；`username.github.io` 用户主页仓库会自动使用根路径。

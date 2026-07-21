@@ -1,0 +1,8 @@
+你的名字
+某大学 · 计算机科学硕士研究生
+
+这是简历占位文件。提供真实简历 PDF 后，请替换此文件并更新首页链接。
+
+研究方向：人机交互、智能系统、知识工具
+邮箱：hello@example.com
+GitHub：https://github.com/yourname
