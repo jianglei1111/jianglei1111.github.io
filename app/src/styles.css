@@ -941,7 +941,6 @@ a {
 }
 
 .back-link,
-.edit-link,
 .external-placeholder {
   display: inline-flex;
   gap: 8px;

@@ -1,4 +1,4 @@
-import { ArrowLeft, PencilSimple } from "@phosphor-icons/react";
+import { ArrowLeft } from "@phosphor-icons/react";
 import { Link, useParams } from "react-router-dom";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
@@ -14,8 +14,6 @@ export function NotePage() {
   const markdown = getNoteMarkdown(slug);
 
   if (!note || !markdown) return <NotFoundPage />;
-
-  const editUrl = `https://github.com/jianglei1111/jianglei1111.github.io/edit/main/app/src/content/notes/${slug}.md`;
 
   return (
     <div className="site-shell detail-shell">
@@ -35,9 +33,6 @@ export function NotePage() {
         <article className="markdown-body">
           <ReactMarkdown remarkPlugins={[remarkGfm]}>{markdown}</ReactMarkdown>
         </article>
-        <a className="edit-link" href={editUrl} target="_blank" rel="noreferrer">
-          <PencilSimple size={18} aria-hidden="true" /> 在 GitHub 中编辑此文档
-        </a>
       </main>
       <Footer />
     </div>
