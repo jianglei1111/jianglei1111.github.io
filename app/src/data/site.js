@@ -42,20 +42,20 @@ export const academicOutputs = [
   {
     year: "2026",
     type: "论文",
-    title: "EAGER：查询时证据状态构造的多跳 RAG",
+    title: "多跳 RAG 中的证据组织研究",
     status: "在投",
-    meta: "开放域多跳问答中的分层证据扩展与筛选",
+    meta: "关注多步检索中的证据发现、筛选与组织",
     contribution: "一作",
-    to: "/updates/eager-query-time-evidence-state",
+    to: "/updates/multi-hop-rag-evidence-study",
   },
   {
     year: "2026",
     type: "论文",
-    title: "TRACER：面向证据状态的成本感知 RAG 路由",
+    title: "RAG 检索与路由策略研究",
     status: "进行中",
-    meta: "实验、结果分析与论文写作持续推进中",
+    meta: "关注证据质量、处理策略与推理成本之间的平衡",
     contribution: "一作",
-    to: "/updates/tracer-evidence-state-rag-routing",
+    to: "/updates/rag-retrieval-routing-study",
   },
   {
     year: "2025",
@@ -371,18 +371,18 @@ export const openSourceProjects = [
 
 export const updates = [
   {
-    slug: "eager-query-time-evidence-state",
+    slug: "multi-hop-rag-evidence-study",
     date: "在投",
-    title: "EAGER：查询时证据状态构造的多跳 RAG",
-    description: "面向开放域多跳问答，在检索过程中持续构造证据状态，并通过实体锚点和分层筛选扩展支持链。",
-    tags: ["Multi-hop RAG", "Evidence State", "Hierarchical Retrieval"],
+    title: "多跳 RAG 中的证据组织研究",
+    description: "关注多跳问答中的证据发现、筛选与组织，目前正在推进实验整理和论文完善。",
+    tags: ["RAG", "Multi-hop QA", "Evidence"],
   },
   {
-    slug: "tracer-evidence-state-rag-routing",
+    slug: "rag-retrieval-routing-study",
     date: "进行中",
-    title: "TRACER：面向证据状态的成本感知 RAG 路由",
-    description: "围绕证据缺失、时间不匹配与证据冲突，研究兼顾回答质量和 Token 成本的 RAG 路由方法。",
-    tags: ["RAG", "Evidence State", "Cost-aware Routing"],
+    title: "RAG 检索与路由策略研究",
+    description: "研究如何根据当前证据情况选择处理策略，并平衡回答质量、检索过程与推理成本。",
+    tags: ["RAG", "Retrieval", "Routing"],
   },
   {
     slug: "generative-ai-agent-tools",
