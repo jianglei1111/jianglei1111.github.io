@@ -13,7 +13,7 @@ export const profile = {
   expectedGraduation: "预计 2027 年 6 月毕业",
   researchInterests: "检索增强生成、数据存储处理与分析、智能化检索、生成式人工智能与智能体",
   interestTopics: "数据处理分析、检索增强生成、生成式人工智能、智能体",
-  skills: "数据处理（多维分析）、检索增强、智能体、图像生成",
+  skills: "数据处理（多维分析）、检索增强、智能体、生成式人工智能",
   selfEvaluation: "做事认真可靠，学习勤奋刻苦，生活自律克己，敢于面对压力与逆境，对知识充满好奇心。",
   hobbies: "阅读各类经典名著（哲学类、文学类居多）、各类运动（羽毛球、健身等）。",
   photo: "images/profile/portrait.jpg",
