@@ -395,9 +395,7 @@ a {
 }
 
 .research-section {
-  margin-inline: 0;
-  padding-right: 28px;
-  padding-left: 28px;
+  margin-inline: 28px;
   background: #eff0ec;
 }
 
@@ -1490,6 +1488,12 @@ a {
     margin-inline: 0;
     padding-right: 18px;
     padding-left: 18px;
+  }
+
+  .research-section {
+    margin-inline: 12px;
+    padding-right: 6px;
+    padding-left: 6px;
   }
 
   .research-grid {

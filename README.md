@@ -5,10 +5,10 @@
 ## 编辑内容
 
 - 页面入口：`app/index.html`
-- 个人信息、项目、动态与文章元数据：`src/data/site.js`
-- Markdown 正文：`src/content/notes/*.md`
+- 个人信息、项目、动态与文章元数据：`app/src/data/site.js`
+- Markdown 正文：`app/src/content/notes/*.md`
 - 背景图片：`public/images/hero-research-workbench.png`
-- 个人照片：放入 `public/images/profile/`，并在 `src/data/site.js` 中填写 `profile.photo`
+- 个人照片：放入 `public/images/profile/`，并在 `app/src/data/site.js` 中填写 `profile.photo`
 - 简历：用真实 PDF 替换 `public/resume.txt`，并更新首页链接
 
 ## 本地开发

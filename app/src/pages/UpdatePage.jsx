@@ -42,7 +42,7 @@ export function UpdatePage() {
 
   if (!update) return <NotFoundPage />;
 
-  const editUrl = `https://github.com/jianglei1111/jianglei1111.github.io/edit/main/src/content/updates/${slug}.md`;
+  const editUrl = `https://github.com/jianglei1111/jianglei1111.github.io/edit/main/app/src/content/updates/${slug}.md`;
 
   return (
     <div className="site-shell detail-shell">
