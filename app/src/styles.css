@@ -74,7 +74,7 @@ a {
   align-items: center;
   justify-content: space-between;
   min-height: 66px;
-  padding: 0 28px;
+  padding: 0;
   background: rgba(248, 248, 245, 0.98);
   border-bottom: 1px solid transparent;
 }
@@ -1307,7 +1307,7 @@ a {
 @media (max-width: 760px) {
   .site-header {
     min-height: 66px;
-    padding: 0 18px;
+    padding: 0;
   }
 
   .wordmark {
