@@ -157,7 +157,7 @@ a {
   position: relative;
   display: grid;
   min-height: clamp(520px, 66vh, 760px);
-  margin: 0 28px;
+  margin: 0;
   overflow: hidden;
   place-items: center;
   background-color: #f3f3ef;
@@ -395,7 +395,9 @@ a {
 }
 
 .research-section {
-  margin-inline: 28px;
+  margin-inline: 0;
+  padding-right: 28px;
+  padding-left: 28px;
   background: #eff0ec;
 }
 
@@ -1355,7 +1357,7 @@ a {
 
   .hero {
     min-height: min(590px, calc(100svh - 96px));
-    margin: 0 12px;
+    margin: 0;
     background-position: center center;
   }
 
@@ -1488,12 +1490,6 @@ a {
     margin-inline: 0;
     padding-right: 18px;
     padding-left: 18px;
-  }
-
-  .research-section {
-    margin-inline: 12px;
-    padding-right: 6px;
-    padding-left: 6px;
   }
 
   .research-grid {
