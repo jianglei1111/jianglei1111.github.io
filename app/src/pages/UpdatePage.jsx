@@ -50,7 +50,10 @@ export function UpdatePage() {
           <ArrowLeft size={18} aria-hidden="true" /> 返回近期动态
         </Link>
         <header className="article-header">
-          <p>近期动态 · {update.date}</p>
+          <p>
+            近期动态 · {update.date}
+            {update.notice && <> · {update.notice}</>}
+          </p>
           <h1>{update.title}</h1>
           <p>{update.description}</p>
           <div className="tag-list">

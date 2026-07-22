@@ -373,6 +373,7 @@ export const updates = [
   {
     slug: "multi-hop-rag-evidence-study",
     date: "在投",
+    notice: "研究细节暂不公开",
     title: "多跳 RAG 中的证据组织研究",
     description: "关注多跳问答中的证据发现、筛选与组织，目前正在推进实验整理和论文完善。",
     tags: ["RAG", "Multi-hop QA", "Evidence"],
@@ -380,6 +381,7 @@ export const updates = [
   {
     slug: "rag-retrieval-routing-study",
     date: "进行中",
+    notice: "研究细节暂不公开",
     title: "RAG 检索与路由策略研究",
     description: "研究如何根据当前证据情况选择处理策略，并平衡回答质量、检索过程与推理成本。",
     tags: ["RAG", "Retrieval", "Routing"],
