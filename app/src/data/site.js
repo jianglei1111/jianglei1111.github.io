@@ -71,7 +71,7 @@ export const academicOutputs = [
     title: "一种关系型数据库的自然语言查询方法及系统",
     status: "已授权",
     meta: "发明专利 · ZL 2025 1 0002847.1",
-    contribution: "学生二作",
+    contribution: "第二发明人",
   },
   {
     year: "2025",
@@ -79,7 +79,7 @@ export const academicOutputs = [
     title: "一种多维数据库的自然语言查询方法及系统",
     status: "已授权",
     meta: "发明专利 · ZL 2025 1 0002755.3",
-    contribution: "学生一作",
+    contribution: "第一发明人",
   },
 ];
 
