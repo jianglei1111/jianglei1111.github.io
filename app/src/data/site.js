@@ -389,9 +389,9 @@ export const updates = [
   {
     slug: "generative-ai-agent-tools",
     date: "持续",
-    title: "生成式 AI 辅助科研与项目实践",
-    description: "使用 GPT-5.6、Image2 与 Banana 辅助资料整理、代码实现和图像生成，提升科研与项目实践中的生产力。",
-    tags: ["GPT-5.6", "Image2", "Banana"],
+    title: "生成式模型辅助科研与生产效率研究",
+    description: "持续研究如何将生成式模型用于资料理解、实验分析、代码实现与视觉表达，提升科研和项目实践的效率与质量。",
+    tags: ["GPT-5.6", "Image2", "Banana", "Research Workflow"],
   },
 ];
 
