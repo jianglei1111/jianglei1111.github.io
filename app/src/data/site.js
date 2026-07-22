@@ -385,25 +385,11 @@ export const updates = [
     tags: ["RAG", "Evidence State", "Cost-aware Routing"],
   },
   {
-    slug: "rag-agent-graph-rag",
-    date: "进行中",
-    title: "开展 RAG 智能体与图 RAG 研究",
-    description: "围绕检索、证据状态与生成决策持续阅读文献、梳理问题并推进实验。",
-    tags: ["RAG", "GraphRAG", "Evidence State"],
-  },
-  {
-    slug: "multidimensional-data-retrieval",
-    date: "持续",
-    title: "积累多维数据分析与智能检索实践",
-    description: "整理多维数据库、数据分析与智能化检索过程中的方法和问题。",
-    tags: ["Multidimensional Database", "Data Analysis", "Retrieval"],
-  },
-  {
     slug: "generative-ai-agent-tools",
     date: "持续",
-    title: "体验生成式 AI 与智能体工具",
-    description: "作为兴趣实践，记录模型、工具组合和有意思的使用方式。",
-    tags: ["Generative AI", "Agents", "Tools"],
+    title: "生成式 AI 辅助科研与项目实践",
+    description: "使用 GPT-5.6、Image2 与 Banana 辅助资料整理、代码实现和图像生成，提升科研与项目实践中的生产力。",
+    tags: ["GPT-5.6", "Image2", "Banana"],
   },
 ];
 
